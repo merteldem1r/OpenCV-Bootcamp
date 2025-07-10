@@ -1,8 +1,13 @@
+import os
 import cv2
 import matplotlib.pyplot as plt
 
-cb_img = cv2.imread("checkerboard_color.png")
-coke_img = cv2.imread("coca-cola-logo.png")
+DATA_ROW_PATH = os.path.abspath(os.path.join(
+    os.getcwd(), "../data/raw"))
+
+
+cb_img = cv2.imread(f"{DATA_ROW_PATH}/checkerboard_color.png")
+coke_img = cv2.imread(f"{DATA_ROW_PATH}/coca-cola-logo.png")
 
 # Use matplotlib imshow()
 plt.imshow(cb_img)

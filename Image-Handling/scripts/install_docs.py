@@ -2,6 +2,7 @@ import os
 from zipfile import ZipFile
 from urllib.request import urlretrieve
 
+
 DATA_ROW_PATH = os.path.abspath(os.path.join(
     os.getcwd(), "../data/raw"))
 SCRIPTS_PATH = os.path.abspath(os.path.join(os.getcwd(), "../scripts"))
