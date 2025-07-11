@@ -78,3 +78,6 @@ coverage.xml
 
 # OpenCV build files
 opencv_build/
+
+# other
+*.zip

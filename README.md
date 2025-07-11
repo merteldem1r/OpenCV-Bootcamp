@@ -26,6 +26,8 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
 ### Module 3: Image Annotation
 
-- ...
+- **Annotating** images
+- Drawing **line**, **circle**, **rectangle** & Putting **text** on images
+- **cv2**: `line()` `circle()` `rectangle()` `putText()`
 
   - File: [image_annotation.ipynb](3-Image-Annotation/notebooks/image_annotation.ipynb)
