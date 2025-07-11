@@ -9,7 +9,7 @@ SCRIPTS_PATH = os.path.abspath(os.path.join(os.getcwd(), "../scripts"))
 
 ZIP_PATH = os.path.abspath(os.path.join(
     DATA_ROW_PATH, "opencv_bootcamp_assets_NB1.zip"))
-URL = r"https://www.dropbox.com/s/qhhlqcica1nvtaw/opencv_bootcamp_assets_NB1.zip?dl=1"
+URL = r"https://www.dropbox.com/s/rys6f1vprily2bg/opencv_bootcamp_assets_NB2.zip?dl=1"
 
 
 def download_unzip(url, save_path):
