@@ -1,0 +1,1 @@
+Here will be located captured mp4 videos by camera.py script.

@@ -31,3 +31,16 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 - **cv2**: `line()` `circle()` `rectangle()` `putText()`
 
   - File: [image_annotation.ipynb](3-Image-Annotation/notebooks/image_annotation.ipynb)
+
+### Module 4: Image Enhancement
+
+- ..
+
+  - File: [image_enhancement.ipynb](4-Image-Enhancement/notebooks/image_enhancement.ipynb)
+
+### Module 5: Accessing and Writing to Camera
+
+- **Accessing** to camera and **Writing video** as **mp4** 
+- **cv2**: `VideoCapture()` `VideoWriter()`
+
+  - File: [camera.py](5-Accessing-Writing-Camera/camera.py)
