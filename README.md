@@ -5,7 +5,7 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 - **Course**: [OpenCV University](https://opencv.org/university/)
 - **Implemented by**: [Mert Eldemir](https://github.com/merteldem1r)
 
-**NOTE**: To manipulate code install the respective images and documents. On each Moduel foldolder run the `download_assets.py` script
+**NOTE**: To manipulate code and see the results first download the respective images and documents. On each moduel folder run the `download_assets.py` script
 
 ### Module 1: Getting Started With Images
 
@@ -40,7 +40,7 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
 ### Module 5: Accessing and Writing to Camera
 
-- **Accessing** to camera and **Writing video** as **mp4** 
+- **Accessing** to camera and **Writing video** as **mp4**
 - **cv2**: `VideoCapture()` `VideoWriter()`
 
-  - File: [camera.py](5-Accessing-Writing-Camera/camera.py)
+  - File: [camera.py](5-Access-Write-Camera/camera.py)
