@@ -34,7 +34,13 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
 ### Module 4: Image Enhancement
 
-- ..
+- **Brightness** & **Contrast** & **Image Thresholding**
+- Difference between **Global** and **Adaptive thresholding**
+- Thresholding Types: **THRESH_BINARY**, **THRESH_BINARY_INV**, **THRESH_TRUNC** etc.
+- Bitwise operations: **AND**, **OR**, **XOR**, **NOT**
+- Applying **Mask** on the background
+- Creating and type casting **numpy arrays**
+- **cv2**: `add()` `subtract()` `multiply()` `threshold()` `adaptiveThreshold()` `bitwise_and()` `bitwise_or()` `bitwise_xor()` `bitwise_not()`
 
   - File: [image_enhancement.ipynb](4-Image-Enhancement/notebooks/image_enhancement.ipynb)
 
