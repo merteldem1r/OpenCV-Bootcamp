@@ -51,7 +51,7 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
   - File: [camera.py](5-Access-Write-Camera/camera.py)
 
-  ### Module 5: 6-Image Filtering and Edge Detection
+  ### Module 6: Image Filtering and Edge Detection
 
 - Opening camera via **VideoCapture** and using keyboard to apply different **filters** and **detection functions**
 - **Edge** & **Corner** & **Filter (Kernel)** term explanations
