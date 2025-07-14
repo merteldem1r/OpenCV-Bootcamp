@@ -75,6 +75,8 @@ coverage.xml
 *.onnx
 *.ckpt
 *.weights
+*.caffemodel
+*.prototxt
 
 # OpenCV build files
 opencv_build/

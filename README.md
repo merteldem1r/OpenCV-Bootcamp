@@ -1,6 +1,6 @@
-## OpenCV Bootcamp
+## OpenCV Core
 
-OpenCV course to manipulate images and videos, and detect objects and faces, among other exciting topics.
+Core concepts & implementations of OpenCV library to manipulate images and videos, and detect objects and faces, among other topics.
 
 - **Course**: [OpenCV University](https://opencv.org/university/)
 - **Implemented by**: [Mert Eldemir](https://github.com/merteldem1r)
@@ -12,7 +12,6 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 - Reading & Display images using **opencv** and **matplotlib**
 - Representing images as **numpy arrays** & **RGB** & **HSV** format images
 - **cv2**: `imread()` `imwrite()` `cvtColor()` `split()` `merge()`
-- **matplotlib**: `imshow()` `figure()` `subplot()`
 
   - File: [image-handling.ipynb](1-Image-Handling/notebooks/image_handling.ipynb)
 
@@ -64,6 +63,7 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
 - Goal is **warping** scanned image to make it look as original reference image (basically align them)
 - Using **Feature-based matching** (ORB) and **Homography** (a 3×3 transformation matrix that maps points from one perspective to another)
+- **KeyPoint** & **Descriptor** & **Matching**
 - **Use cases**: Document alignment & scanning, Panorama stitching, Augmented Reality (placing virtual objects correctly) etc.
 - **cv2**: `ORB_create()` `orb.detectAndCompute()` `drawKeypointss()` `DescriptorMatcher_create()` `drawMatches()` `findHomography()` `warpPerspective()`
 
@@ -75,3 +75,22 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 - **cv2**: `Stitcher_create()` `stitcher.stitch`
 
   - File: [panorama.ipynb](8-Panorama/notebooks/panorama.ipynb)
+
+### Module 9: HDR
+
+- Idea of **HDR** Images
+- **MTB - Median Threshold Bitmap** (compute the median pixel intensity)
+- **cv2**: `createAlignMTB()` `alignMTB.process()` `createCalibrateDebevec()` `calibrate_debevec.process()` `createMergeDebevec()` `createTonemapDrago()` `createTonemapReinhard()` `createTonemapMantiuk()`
+
+  - File: [hdr.ipynb](9-HDR/notebooks/hdr.ipynb)
+
+### Module 10: Object Tracking
+
+- **Object Detection** vs **Object Tracking**
+- **Object Tracking** steps & differences on **Deep learning-based models** 
+- Tracking libraries like **GOTURN**, **MIL**, **Nano**, **Vit**, **mean shift** etc.
+- **Appearance Model** & **Motion Model** terms
+- **cv2**: `TrackerMIL()` `TrackerGOTURN()` `TrackerNano()` `dnn.readNet()` `TrackerVit()` `getTickCount()` `getTickFrequency()`
+
+  - File: [tracker.py](10-Object-Tracking/tracker.py)
+  - Notebook File: [hdr.ipynb](10-Object-Tracking/notebooks/object_tracking.ipynb)
