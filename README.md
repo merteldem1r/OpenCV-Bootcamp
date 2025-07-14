@@ -62,8 +62,10 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
 ### Module 7: Image Features and Alignment
 
-- ..
-- **cv2**: `..` `..`
+- Goal is **warping** scanned image to make it look as original reference image (basically align them)
+- Using **Feature-based matching** (ORB) and **Homography** (a 3×3 transformation matrix that maps points from one perspective to another)
+- **Use cases**: Document alignment & scanning, Panorama stitching, Augmented Reality (placing virtual objects correctly) etc.
+- **cv2**: `ORB_create()` `orb.detectAndCompute()` `drawKeypointss()` `DescriptorMatcher_create()` `drawMatches()` `findHomography()` `warpPerspective()`
 
   - File: [image_features_alignment.ipynb](7-Image-Features-and-Alignment/notebooks/image_features_alignment.ipynb)
 
