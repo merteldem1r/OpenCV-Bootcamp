@@ -44,14 +44,14 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 
   - File: [image_enhancement.ipynb](4-Image-Enhancement/notebooks/image_enhancement.ipynb)
 
-### Module 5: Accessing and Writing to Camera 
+### Module 5: Accessing and Writing to Camera
 
 - **Accessing** to camera and **Writing video** as **mp4**
 - **cv2**: `VideoCapture()` `VideoWriter()`
 
   - File: [camera.py](5-Access-Write-Camera/camera.py)
 
-  ### Module 6: Image Filtering and Edge Detection
+### Module 6: Image Filtering and Edge Detection
 
 - Opening camera via **VideoCapture** and using keyboard to apply different **filters** and **detection functions**
 - **Edge** & **Corner** & **Filter (Kernel)** term explanations
@@ -59,3 +59,17 @@ OpenCV course to manipulate images and videos, and detect objects and faces, amo
 - **cv2**: `blur()` `GaussianBlur()` `Canny()` `goodFeaturesToTrack()`
 
   - File: [detection.py](6-Image-Filtering-and-Edge-Detection/detection.py)
+
+### Module 7: Image Features and Alignment
+
+- ..
+- **cv2**: `..` `..`
+
+  - File: [image_features_alignment.ipynb](7-Image-Features-and-Alignment/notebooks/image_features_alignment.ipynb)
+
+### Module 8: Panorama
+
+- Image allignment and creating **panorama** image
+- **cv2**: `Stitcher_create()` `stitcher.stitch`
+
+  - File: [panorama.ipynb](8-Panorama/notebooks/panorama.ipynb)
