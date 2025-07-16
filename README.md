@@ -87,10 +87,22 @@ Core concepts & implementations of OpenCV library to manipulate images and video
 ### Module 10: Object Tracking
 
 - **Object Detection** vs **Object Tracking**
-- **Object Tracking** steps & differences on **Deep learning-based models** 
+- **Object Tracking** steps & differences on **Deep learning-based models**
 - Tracking libraries like **GOTURN**, **MIL**, **Nano**, **Vit**, **mean shift** etc.
 - **Appearance Model** & **Motion Model** terms
 - **cv2**: `TrackerMIL()` `TrackerGOTURN()` `TrackerNano()` `dnn.readNet()` `TrackerVit()` `getTickCount()` `getTickFrequency()`
 
   - File: [tracker.py](10-Object-Tracking/tracker.py)
   - Notebook File: [hdr.ipynb](10-Object-Tracking/notebooks/object_tracking.ipynb)
+
+### Module 11: Face Detection
+
+- **Real-time face detection** using a **pre-trained deep neural network (DNN)**
+- Loads **Caffe model** via **deploy.prototxt** and **.caffemodel** for inference
+- Converts input frame to **blob** and feeds into the network
+- Performs forward pass to obtain **detection results**
+- Iterates over **4D Numpy output tensor (detections) to extract face boxes**
+- Draws **bounding boxes**, **confidence scores**, and **inference time**
+- **cv2**: `getTextSize()` `dnn.readNetFromCaffe()` `dnn.blobFromImage()` `net.setInput()` `net.forward()` `net.getPerfProfile()`
+
+  - File: [faceDetection.py](11-Face-Detection/faceDetection.py)
