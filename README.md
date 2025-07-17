@@ -109,6 +109,13 @@ Core concepts & implementations of OpenCV library to manipulate images and video
 
 ### Module 12: TensorFlow Object Detection
 
-- ..
+- **TensorFlow** Object Detection **manual Setup**
+- Downloading and extracting pre-trained `ssd_mobilenet_v2_coco_2018_03_29.tar.g ` (trained on **COCO dataset**)
+- Using inference file `frozen_inference_graph.p ` with external `tf_text_graph_ssd.py` script to get OpenCV usable `ssd_mobilenet_v2_coco_2018_03_29.pbtx` file
+- Using `coco_class_labels.txt`to clasify found objects
+- Performing **inferenece** using a **OpenCV DNN**
+- Loading the model and input image into memory, detecting objects using a forward pass through the network
+- Display the detected objects with **bounding boxes** and **class labels**
+- **cv2**: `dnn.readNetFromTensorflow()` `dnn.blobFromImage()` `net.setInput()` `net.forward()`
 
-  - File:
+  - File: [ts_object_detection.ipynb](12-TensorFlow-Object-Detection/notebooks/ts_object_detection.ipynb)
