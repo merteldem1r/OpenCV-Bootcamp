@@ -106,3 +106,9 @@ Core concepts & implementations of OpenCV library to manipulate images and video
 - **cv2**: `getTextSize()` `dnn.readNetFromCaffe()` `dnn.blobFromImage()` `net.setInput()` `net.forward()` `net.getPerfProfile()`
 
   - File: [faceDetection.py](11-Face-Detection/faceDetection.py)
+
+### Module 12: TensorFlow Object Detection
+
+- ..
+
+  - File:
