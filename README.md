@@ -116,6 +116,18 @@ Core concepts & implementations of OpenCV library to manipulate images and video
 - Performing **inferenece** using a **OpenCV DNN**
 - Loading the model and input image into memory, detecting objects using a forward pass through the network
 - Display the detected objects with **bounding boxes** and **class labels**
-- **cv2**: `dnn.readNetFromTensorflow()` `dnn.blobFromImage()` `net.setInput()` `net.forward()`
+- **cv2**: `dnn.readNetFromTensorflow()`
 
   - File: [ts_object_detection.ipynb](12-TensorFlow-Object-Detection/notebooks/ts_object_detection.ipynb)
+
+### Module 13: Pose Estimation using OpenPose
+
+- Using Caffe model trained on the **Multi-Person Image Dataset (MPI)** to demonstrate **human pose estimation for a single person**.
+- Loading **Caffe model**:
+  - **Architecture**: `pose_deploy_linevec_faster_4_stages.prototxt`
+  - **Weights**: `pose_iter_160000.caffemodel`
+- Converting to blog for wrapping image into format that DNN expects
+- Visualizing **probability map (heatmap)** of found body parts
+- Displaying **Body Points** & **Skeleton** on the input image
+
+  - File: [pose_estimation.ipynb](13-Pose-Estimation-OpenPose/notebooks/pose_estimation.ipynb)
